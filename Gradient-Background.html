@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Background CSS</title> 
+    <style> 
+    body{ 
+           font-family: arial;
+        }
+    #box{ 
+            width: 700px; 
+            height: 220px; 
+            padding: 30px; 
+            border: 3px solid black; 
+            background: repeating-linear-gradient(to right, red,yellow 10%,green 20%);
+        } 
+    #box2{ 
+            width: 700px; 
+            height: 220px; 
+            padding: 30px; 
+            border: 3px solid black; 
+            background: repeating-radial-gradient(red,yellow 50px,green 100px);
+        }    
+    </style>
+</head>
+<body> 
+    <h1>Gradient Background CSS</h1> 
+    <div id="box" > 
+        Elementum nisi quis eleifend quam adipiscing vitae proin. At varius vel pharetra vel turpis nunc. 
+        Lacus luctus accumsan tortor posuere ac ut consequat semper. Enim blandit volutpat maecenas volutpat. 
+        Vitae ultricies leo integer malesuada nunc vel risus commodo viverra.Sit amet justo donec enim diam.  
+    </div> 
+    <div id="box2" > 
+        <h2>Radial Gradient</h2>
+    </div>
+</body>
+</html>
