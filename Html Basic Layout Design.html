@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Basic Layout Design CSS</title>
+    <style>
+      body {
+        font-family: arial, helvetica;
+        margin: 0px;
+        padding: 0px;
+      }
+      #container {
+        border: 0px solid black;
+        width: 100%;
+        background: white;
+        margin: 0 auto;
+      }
+      #header {
+        background: crimson;
+        color: white;
+        height: 100px;
+      }
+      #header h1 {
+        padding: 30px 0 0 20px;
+        margin: auto;
+      }
+      #menu {
+        background: lightsalmon;
+      }
+      #menu ul {
+        padding: 0px;
+        margin: 0px;
+      }
+      #menu li {
+        display: inline-block;
+      }
+      #menu li a {
+        display: block;
+        padding: 10px 10px;
+        text-decoration: none;
+        color: black;
+      }
+      #menu li a:hover {
+        background-color: crimson;
+        color: white;
+      }
+      #content {
+        width: 80%;
+        float: left;
+        padding: 15px;
+        min-height: 429px; 
+        box-sizing: border-box;
+      }
+      #sidebar {
+        background: lightblue;
+        width: 20%;
+        float: right;
+        min-height: 429px; 
+      }
+      #sidebar a {
+        text-decoration: none;
+        color: black;
+      }
+      #footer {
+        background: lightsalmon;
+        padding: 5px 10px;
+        text-align: right;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>Arfan Warsi</h1>
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div id="content">
+        <h2>Design Basic Layout</h2>
+        <p>
+          Elementum nisi quis eleifend quam adipiscing vitae proin. At varius vel pharetra vel turpis nunc. 
+          Lacus luctus accumsan tortor posuere acut consequat semper. Enim blandit volutpat maecenas volutpat. 
+          Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Sit amet justo donec enim diam. 
+          Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. 
+          Elementum nisi quis eleifend quam adipiscing vitae proin. At varius vel pharetra vel turpis nunc. 
+          Lacus luctus accumsan tortor posuere acut consequat semper. Enim blandit volutpat maecenas volutpat. 
+          Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Sit amet justo donec enim diam. 
+          Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. 
+        </p>
+        <p>Elementum nisi quis eleifend quam adipiscing vitae proin. At varius vel pharetra vel turpis nunc. 
+           Lacus luctus accumsan tortor posuere acut consequat semper. Enim blandit volutpat maecenas volutpat. 
+           Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Sit amet justo donec enim diam. 
+           Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. 
+           Elementum nisi quis eleifend quam adipiscing vitae proin. At varius vel pharetra vel turpis nunc. 
+           Lacus luctus accumsan tortor posuere acut consequat semper. Enim blandit volutpat maecenas volutpat. 
+           Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Sit amet justo donec enim diam. 
+           Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. 
+        </p> 
+      </div>
+      <div id="sidebar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Our Services</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div id="footer">arfanwarsi@copyright 2023.</div>
+    </div>
+  </body>
+</html>
