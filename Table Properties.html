@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Properties CSS</title> 
+    <style> 
+    body{ 
+           font-family: arial, helvetica; 
+        } 
+    table{ 
+        border-collapse: collapse; 
+        width: 300px; 
+        table-layout: auto; 
+    }    
+    table, td, th{ 
+        border: 1px solid black; 
+    } 
+    td, th{ 
+        vertical-align: top; 
+        padding: 5px 20px; 
+    } 
+    caption{ 
+        caption-side: top; 
+    } 
+    tr:hover{ 
+        
+    } 
+    tr:nth-child(even){ 
+        background: #f2f2f2; 
+    }
+    </style>
+</head>
+<body> 
+    <h1>Table Properties CSS</h1> 
+    <table> 
+        <caption>Employee Record</caption>
+        <tr> 
+            <th>First Name</th> 
+            <th>Last Name</th> 
+            <th>Savings</th> 
+        </tr> 
+        <tr> 
+            <td>Salim</td> 
+            <td>Khan</td> 
+            <td>$100</td>
+        </tr> 
+        <tr> 
+            <td>Ali</td> 
+            <td>Asif</td> 
+            <td>$150</td>
+        </tr> 
+        <tr> 
+            <td>Abid</td> 
+            <td>Osaf</td> 
+            <td>$200</td>
+        </tr> 
+        <tr> 
+            <td>Khalid</td> 
+            <td>Abas</td> 
+            <td>$300</td>
+        </tr> 
+    </table>
+</body>
+</html>
