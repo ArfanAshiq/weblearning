@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Web Layout</title> 
+    <style> 
+    *{
+        box-sizing: border-box; 
+        margin: 0px; 
+        padding: 0px; 
+    }
+    .main{
+        background-color: lightskyblue;
+        padding: 10px;
+        width: 100%; 
+        text-align:center;
+
+    }
+    .container{   
+        height: auto; 
+        width: 100%;
+        display: flex; 
+        flex-wrap: wrap; 
+    } 
+    .header{color: #fff; 
+        background: lightseagreen;
+        width: 100%;
+        padding: 20px;
+        text-align: center; 
+        margin-bottom: 10px;
+    }
+    .footer{color: #fff; 
+        background: lightseagreen;
+        width: 100%;
+        padding: 20px;
+        text-align: center; 
+        margin-top: 10px;
+    }
+    .aside{color: #fff; 
+        background-color: lightgreen;
+        width: 30%;
+    }
+    .article{color: #fff; 
+        background-color: orange;
+        width: 70%;
+        height: 70vh;
+        display: flex;
+        flex-direction: row; 
+    }
+    .items{color: #fff; 
+           font-size: 20px; 
+           font-weight: bold; 
+           text-align: center; 
+           padding: 0px; 
+           margin: 0px;
+        }
+        .item1, .item2, .item3{color: #fff; 
+            width: 33.34%;
+            background-color: gold;
+            align-self: flex-end;
+            height: 40%; 
+            margin: 10px; 
+            padding: 20px;
+        } 
+    </style>
+</head>
+<body> 
+<div class="main">
+        <div class="header">Header</div> 
+        <div class="container">
+            <div class="aside">Aside</div> 
+        <div class="article">
+
+                <div class="item1">Image</div>  
+                <div class="item2">Image</div> 
+                <div class="item3">Image</div> 
+        </div> 
+        </div> 
+        <div class="footer">Footer</div> 
+    </div>
+</body>
+</html>
