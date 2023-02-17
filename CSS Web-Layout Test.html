@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Web Layout</title> 
+    <style> 
+    *{
+        box-sizing: border-box; 
+        margin: 0px; 
+        padding: 0px; 
+    }
+    .main{
+        background-color: lightskyblue;
+        padding: 10px;
+        width: 100%; 
+        text-align:center;
+    }
+    .container1{   
+        height: auto; 
+        width: 100%;
+        display: flex; 
+        flex-wrap: wrap; 
+    } 
+    .header{color: #fff; 
+        background: lightseagreen;
+        width: 100%;
+        padding: 20px;
+        text-align: center; 
+        margin-bottom: 10px;
+    }
+    .footer{color: #fff; 
+        background: lightseagreen;
+        width: 100%;
+        padding: 20px;
+        text-align: center; 
+        margin-top: 10px;
+    }
+    .aside{color: #fff; 
+        background-color: lightgreen;
+        width: 30%; 
+    }
+    .abc{ 
+        margin-top: 180px;
+    }
+    .section{color: #fff; 
+        background-color: orange;
+        width: 70%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+    }
+    .art{ 
+        margin-top: 180px;
+    }
+    .box-images{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end; 
+        height: auto; 
+        width: 100%; 
+    } 
+    .img, .img2, .img3{ 
+        margin-top: 60px;
+    }
+        .item1, .item2, .item3{color: #fff; 
+            width: 33.34%;
+            background-color: gold;
+            align-self: flex-end;
+            height: 30vh; 
+            margin: 10px; 
+            padding: 20px; 
+        } 
+    </style>
+</head>
+<body> 
+<div class="main">
+        <div class="header"><h1>Header</h1></div>         
+        <div class="container1">
+            <div class="aside">
+                <h1 class="abc">Aside</h1>
+            </div> 
+       <div class="section">
+        <div class="nothing">
+            <h1 class="art">Article</h1>
+        </div>
+                <div class="box-images">
+                    <div class="item1"><h2 class="img">Image</h2></div>  
+                    <div class="item2"><h2 class="img2">Image</h2></div> 
+                    <div class="item3"><h2 class="img3">Image</h2></div> 
+                </div> 
+       </div>
+
+        </div> 
+        <div class="footer"><h1>Footer</h1></div> 
+    </div>
+</body>
+</html> 
